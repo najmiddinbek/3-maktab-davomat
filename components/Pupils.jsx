@@ -172,13 +172,13 @@ const PupilsAddClient = () => {
                         </label>
 
                         <select className="px-2 py-3 cursor-no-drop" name="" id="">
-                            <option value="">Ma'lumot yo`q</option>
+                            <option value="">Malumot yo`q</option>
                         </select>
                         <label className="text-[18px] font-bold poppins" htmlFor="">
                             Qoldirilgan dars vaqti
                         </label>
                         <select onChange={(e) => setNewDarsQoldirish(e.target.value)} value={newDarsQoldirish} className="px-2 py-3 cursor-no-drop">
-                            <option>Ma'lumot yo`q</option>
+                            <option>Malumot yo`q</option>
 
                             {/* {soat.map((watch) => (
                                 <option key={watch}>{watch}-soat</option>
@@ -199,7 +199,7 @@ const PupilsAddClient = () => {
                             type="text"
                             placeholder="Telefon raqami"
                         /> */}
-                        <input placeholder="Ma'lumot yo`q " className="w-full px-2 py-3 bg-white cursor-no-drop" type="text" />
+                        <input placeholder="Malumot yo`q " className="w-full px-2 py-3 bg-white cursor-no-drop" type="text" />
                         <div className="flex justify-end">
                             <button
                                 type="submit"
