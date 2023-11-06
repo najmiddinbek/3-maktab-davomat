@@ -99,7 +99,7 @@ const PupilsAddClient = () => {
                 >
                     <option>Bu yerdan tanlang</option>
                     {maktablar.map((maktab) => (
-                        <option key={maktab} value={maktab}>
+                        <option value={maktab}>
                             {maktab}-maktab
                         </option>
                     ))}
@@ -124,12 +124,12 @@ const PupilsAddClient = () => {
                             <option>Bu yerdan tanlang</option>
 
                             {soat.map((watch) => (
-                                <option key={watch}>{watch}-soat</option>
+                                <option>{watch}-soat</option>
                             ))}
 
                             <option>Kun bo`yicha</option>
                             {kun.map((day) => (
-                                <option key={day}>{day}-kun</option>
+                                <option>{day}-kun</option>
                             ))}
                         </select>
                         <label className="text-[18px] poppins font-bold" htmlFor="">
